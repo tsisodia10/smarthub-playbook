@@ -1,6 +1,6 @@
 ---
 - name: Basic Ansible Playbook
-  hosts: your_target_host  # Replace with the hostname or IP address of your target host
+  hosts: localhost  # Replace with the hostname or IP address of your target host
 
   tasks:
     - name: Echo a Message
